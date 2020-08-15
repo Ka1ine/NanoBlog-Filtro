@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Novo Cliente</title>
+    </head>
+    <body>
+        <p >Novo Cliente</p>
+        <form action = "/Cliente/Insere" method="post">
+            
+            <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"><br><br>
+            <label for="idade">Idade:</label>
+                <input type="text" id="idade" name="idade"><br><br>
+            <label for="endereco">Endereco:</label>
+                <input type="text" id="endereco" name="endereco"><br><br><br>
+            
+                <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            <br>
+        </form>
+        <a href="/Cliente/ClienteLista"><button>Lista de clientes</button></a>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Deletar Cliente</title>
+    </head>
+    <body>
+        <p >Deletar Cliente</p>
+        <form action = "/Cliente/delete" method="POST">
+            <label for="idade">Idade:</label>
+                <input type="text" id="idade" name="idade"><br><br>
+            <label for="id">Id:</label>
+                <input type="text" id="id" name="id"><br><br>
+
+
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"/><br>
+        </form>
+        <a href="/Cliente/ClienteLista"><button>Lista de clientes</button></a>
+    </body>
+</html>

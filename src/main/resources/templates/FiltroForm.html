@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Filtro cliente</title>
+    </head>
+    <body>
+        <p >Escolha a idade para buscar seu cliente:</p>
+        <form action = "/Cliente/Filtro" method="get">
+            <label for="idade">Idade:</label>
+                <input type="text" id="idade" name="idade"><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"/><br>
+        </form>
+        <a href="/Cliente/ClienteLista"><button>Lista de clientes</button></a>
+    </body>
+</html>

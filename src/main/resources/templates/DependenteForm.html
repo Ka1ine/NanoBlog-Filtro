@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Novo Dependente</title>
+    </head>
+    <body>
+        <p>Novo Dependente</p>
+        <form action = "/Dependente/DependenteInsere" method="post">
+
+            <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"><br><br>
+            <label for="idade">Idade:</label>
+                <input type="text" id="idade" name="idade"><br><br>
+            <label for="endereco">Endereco:</label>
+                <input type="text" id="endereco" name="endereco"><br><br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"><br>
+        </form>
+        <a href="/Dependente/DependenteLista"><button>Lista de dependente</button></a>
+    </body>
+</html>
